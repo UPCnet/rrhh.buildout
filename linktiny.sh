@@ -12,10 +12,10 @@ function add {
 }
 
 #Ruta a la carpeta de tiny con * en la version
-add /o2k7 '/eggs/Products.TinyMCE-*-py2.6.egg/Products/TinyMCE/skins/tinymce/themes/advanced/skins'
+add /o2k7 '/eggs/Products.TinyMCE-1.2.10-py2.6.egg/Products/TinyMCE/skins/tinymce/themes/advanced/skins'
 
 #Parche plonelink.js
-add /patch_tiny/plonelink.js '/eggs/Products.TinyMCE-*-py2.6.egg/Products/TinyMCE/skins/tinymce/plugins/plonelink/js/'
+add /patch_tiny/plonelink.js '/eggs/Products.TinyMCE-1.2.10-py2.6.egg/Products/TinyMCE/skins/tinymce/plugins/plonelink/js/'
     
 
 for s in ${SOURCES[@]}; do
